@@ -1,7 +1,11 @@
 package dev.gregmitten.model.dto
 
 class Prompt(
-    val promptComponents: List<String>
+    private val promptComponents: List<String>
 ) {
     constructor(prompt: String) : this(prompt.split(","))
+
+    override fun toString(): String {
+        return promptComponents.joinToString(",")
+    }
 }

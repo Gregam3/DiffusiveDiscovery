@@ -19,15 +19,13 @@ class Txt2ImageRequest(
               "hr_resize_x": 0,
               "hr_resize_y": 0,
               "prompt": "$prompt",
-              "styles": [
-                "string"
-              ],
+              "styles": [],
               "seed": -1,
               "subseed": -1,
               "subseed_strength": 0,
               "seed_resize_from_h": -1,
               "seed_resize_from_w": -1,
-              "sampler_name": "string",
+              "sampler_name": "",
               "batch_size": 1,
               "n_iter": 1,
               "steps": 50,
@@ -36,7 +34,7 @@ class Txt2ImageRequest(
               "height": 512,
               "restore_faces": false,
               "tiling": false,
-              "negative_prompt": "string",
+              "negative_prompt": "",
               "eta": 0,
               "s_churn": 0,
               "s_tmax": 0,
@@ -46,7 +44,7 @@ class Txt2ImageRequest(
               "override_settings_restore_afterwards": true,
               "script_args": [],
               "sampler_index": "Euler",
-              "script_name": "string"
+              "script_name": "None"
             }
         """.trimIndent()
 
